@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Scanner;
-class PrincipalMelisa {
+class Principal {
     public static ArrayList<Zombies> zombies;
     public static void main(String[] args)
     {
@@ -49,7 +49,7 @@ class PrincipalMelisa {
         System.out.print(" Ingrese tipo de sangre (segun el ejemplo (a+, b+, ...)):");
         String ts = teclado.next();
         Zombies zetaUno = new Zombies(n,s,fn,ts);
-        PrincipalMelisa.zombies.add(zetaUno);
+        Principal.zombies.add(zetaUno);
         System.out.println("    SE HA CREADO TU ZOMBIE CON EXITO ;)");
         System.out.println("_______");
         break;
